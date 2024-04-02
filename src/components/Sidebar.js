@@ -46,6 +46,7 @@ const SideBar = () => {
               route={route}
               isOpen={isOpen}
               showAnimation={showAnimation}
+              setIsOpen={setIsOpen}
             />
           ))}
         </section>
